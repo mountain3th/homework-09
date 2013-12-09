@@ -1,0 +1,38 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="maxgo.css">
+</link>
+</head>
+<body>
+<p>在下面的文本区域内输入一段数字，以空格为间隔(如: 1 -2 3 -5 6)</p>
+<input id="input" type="text" size="50">
+<br>
+<p>自动运行请按"AutoPlay"按钮,单步执行请按"Next"按钮,回滚操作请按"Previous"按钮.</p>
+<p>(注意:在自动运行中点击"Next"或者"Previous"按钮会中断,重按"AutoPlay"按钮继续运行)</p>
+<input id="autoplay" type="button" value="AutoPlay">
+<input id="next" type="button" value="Next">
+<input id="previous" type="button" value="Previous">
+<br></br>
+<table id="index">
+	<tr>
+		<th>数组索引</th>
+	</tr>
+</table>
+<br>
+<table id="sums">
+	<tr>
+		<th>遍历过程</th>
+	</tr>
+</table>
+<br>
+<table id="maxes">
+	<tr>
+		<th>最大值</th>
+	</tr>
+</table>
+<br>
+<p id="result">最终结果:</p>
+<script src="maxgo.js">
+</script>
+</body>
+</html>
